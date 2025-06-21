@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useContext, useState } from "react";
 import Form from "./components/Registeration_form";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Product from "./pages/Product";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import HeroSection from "./components/HeroSection";
 
 const cardsData = [
   {
@@ -33,6 +34,7 @@ const cardsData = [
 ];
 
 const App = () => {
+
   return (
     <>
       <Navbar />
@@ -57,6 +59,7 @@ const App = () => {
           );
         })}
       </div>
+      <HeroSection />
       {/* <Users /> */}
     </>
   );
