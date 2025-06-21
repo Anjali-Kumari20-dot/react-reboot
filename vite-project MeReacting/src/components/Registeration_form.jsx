@@ -24,9 +24,9 @@ const Registeration_form = () => {
   };
 
   return (
-    <div className="bg-pink-200 flex items-center justify-center h-screen p-20">
+    <div className="bg-purple-200 flex items-center justify-center h-screen p-20">
       <form
-        className="max-w-lg h-55 flex flex-col items-center justify-center mx-auto bg-pink-400  p-10 rounded-3xl shadow-md space-y-4"
+        className="w-[25vw] h-[60vh] flex flex-col items-center justify-center mx-auto bg-purple-400  p-10 rounded-3xl shadow-md space-y-4"
         onSubmit={handleSubmit}
       >
         <h2 className="text-2xl font-bold text-centre">Register</h2>
